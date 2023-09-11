@@ -1,13 +1,21 @@
 import java.util.*;
 public class JavaBasic{
-    public static void main(String arg[]){
-        Scanner  sc= new Scanner (System.in);
-      float num1,num2,num3;
-      System.out.println("Enter Three Number's");
-      num1=sc.nextInt();
-      num2=sc.nextInt();
-      num3=sc.nextInt();
-      float average=(num1+num2+num3)/3;
-      System.out.println("The Average Of Given Numbers is:  " + average); 
+    public static float averageOfNumbers(float a, float b, float c){
+        float sum= a+ b+ c;
+        float average =sum / 3;
+        System.out.print("The Average of Three is:" + average);
+        return average;
+    }
+    public static void main(String[] arg){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter First Number: ");
+        float num1= sc.nextFloat();
+        System.out.println("Enter Second Number: ");
+        float num2= sc.nextFloat();
+        System.out.println("Enter Third Number: ");
+        float num3= sc.nextFloat();
+        averageOfNumbers(num1,num2,num3);
+        
     }
 }
+
