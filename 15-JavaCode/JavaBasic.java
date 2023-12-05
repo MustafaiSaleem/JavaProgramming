@@ -1,4 +1,3 @@
-import java.util.*;
 public class JavaBasic{
   public static void Hello(){
     for(int i=1;i<=10;i++)
