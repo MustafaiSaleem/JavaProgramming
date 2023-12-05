@@ -1,5 +1,4 @@
-public class JavaBasic   
-{  
+public class JavaBasic{  
 public static void main(String[] args)   
 {  
 int number = 987654, reverse = 0;  
