@@ -1,5 +1,5 @@
 import java.util.*;
-public class SumOfOddNum{
+public class SumofOddNum{
     public static int oddNumbers(int n){
         int sum=0;
         for(int i=1; i<=n; i++){
@@ -15,5 +15,6 @@ public class SumOfOddNum{
         int input= sc.nextInt();
         int sum=oddNumbers(input);
         System.out.println("The Of from 1 to N is: "+ sum);
+        sc.close();
     }
 }
