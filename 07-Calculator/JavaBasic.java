@@ -29,5 +29,6 @@ public class JavaBasic{
         }
 
         System.out.println("Resutl :  " + result);
+        sc.close();
     }
 }
