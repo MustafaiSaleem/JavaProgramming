@@ -6,7 +6,6 @@ public class JavaBasic{
         int b=sc.nextInt();
         int sum= a + b;
         System.out.println("Sum is :" + sum);
-
-        
+        sc.close();
     }
 }
