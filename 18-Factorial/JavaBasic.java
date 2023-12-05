@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class JavaBasic{
   public static int factorial(int num){
   int fact=1;
