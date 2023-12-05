@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class JavaBasic{
   public static void Swap(int num1,int num2){
    int  temp =num1;
