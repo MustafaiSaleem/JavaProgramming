@@ -15,6 +15,7 @@ public class JavaBasic{
         System.out.println("Enter Third Number: ");
         float num3= sc.nextFloat();
         averageOfNumbers(num1,num2,num3);
+        sc.close();
         
     }
 }
