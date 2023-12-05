@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class JavaBasic{
   public static int Calculator(int num1,int num2){
    int  sum=num1+num2;
