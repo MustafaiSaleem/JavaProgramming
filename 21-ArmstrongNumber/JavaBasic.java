@@ -34,5 +34,6 @@ public class JavaBasic {
 
             if (isArmstrong(i))
                 System.out.print(i + ", ");
+                sc.close();
     }
 }
