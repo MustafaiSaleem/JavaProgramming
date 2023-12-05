@@ -22,6 +22,7 @@ public class JavaBasic{
     else{
       System.out.println("The Given Number is Not Prime");
     }
+    sc.close();
     
   }
 }
