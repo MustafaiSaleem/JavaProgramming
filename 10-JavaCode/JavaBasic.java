@@ -11,5 +11,6 @@ public class JavaBasic{
       }
       System.out.println(num);
     } while (true);
+    sc.close();
   }
 }
