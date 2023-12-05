@@ -12,6 +12,7 @@ public class JavaBasic{
       }
       System.out.println();
     }
+    sc.close();
     
   }
 }
