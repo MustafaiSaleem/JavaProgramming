@@ -11,6 +11,7 @@ public class JavaBasic{
         System.out.println(i);
     }
        System.out.println("Out From The  Loop");
+       sc.close();
 
   }
 
