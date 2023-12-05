@@ -12,5 +12,6 @@ public class JavaBasic{
         i++;
       }
         System.out.println("The Sum is: " + sum);
+        sc.close();
     }
 }
